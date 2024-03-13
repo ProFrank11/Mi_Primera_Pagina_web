@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/124ff9ba63.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- #HEAD -->
+</head>
+<body>
+        <header id="encabezado">
+            <h1>
+            <a href="https://www.google.com/"
+                class="fuente-acento">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </h1>
+            <nav> 
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label> 
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acercademi">Acerca de mi</a></li>
+                    <li><a href="#Trabajos">Trabajos</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2 class="fuente-acento">Acerca de mí</h2>
+                    <p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>  
+                    <p class="parrafo2">Me llamo Franklin, estoy estudiando programaciónn web full stack.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src='imagen.jpg'/ alt="imagen personal">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src='imagen.jpg'/ alt="imagen de carrusel">
+            </section>
+            <section class="seccion-3">
+                <img src='imagen.jpg'/ alt="imagen de carrusel">
+            </section>
+            <section class="Contacto">
+                <h1>Contacto</h1>
+                <p><em>¡Esperamos tu consulta!</em></p>
+
+                <form action="" method="get" class="formulario" id="form">
+                    
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" />
+                    </div>
+                    
+                    <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="pepe@gmail.com"
+                    />
+                    </div>
+
+                    <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                    <button>Enviar</button>
+                    </div>
+
+                    <p class="alertas" id="alertas"></p>
+                </form>
+
+
+            </section>
+            
+
+        </main>
+        <footer>
+            <h3>Contacto</h3>
+            <a href="https://www.google.com/">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <nav>  
+                <ul>
+                    <li>Teléfono: 935 778 640</li>
+                    <li>Facebook: @frankgG</li>
+                    <li>Twitter: @frankgG1</li>
+                </ul>
+            </nav>
+        </footer>      
+</body>
+
+</html>
